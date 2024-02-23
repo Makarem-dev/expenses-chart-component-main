@@ -1,0 +1,76 @@
+html {
+  background-color: hsl(27, 66%, 92%);
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -250px;
+  width: 500px;
+  height: 500px;
+}
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.chart-title{
+    padding-bottom: 100px;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: space-between;
+  
+  padding: 20px;
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.days-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.chart {
+  background-color: black;
+  width: 20px;
+  height: 40px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1.5px solid gray;
+  
+}
+.total-month {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.total-lastmonth {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
