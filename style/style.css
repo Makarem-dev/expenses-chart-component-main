@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto-Regular;
-  src: url(./design/Roboto-Regular.ttf);
+  src: url(../design/Roboto-Regular.ttf);
 }
 html {
   background-color: hsl(27, 66%, 92%);
@@ -23,12 +23,11 @@ html {
   padding: 20px;
   color: white;
 }
-.balance-title{
-    line-height: 30px;
-    
+.balance-title {
+  line-height: 30px;
 }
-.balance-price{
-    font-size: 30px;
+.balance-price {
+  font-size: 30px;
 }
 .chart-title {
   padding-bottom: 100px;
@@ -52,7 +51,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 .column {
   display: flex;
@@ -61,49 +60,55 @@ html {
   gap: 10px;
   color: gray;
 }
+.chart {
+  background-color: hsl(10, 79%, 65%);
+  height: 40px;
+  border-radius: 3px;
+  width: 40px;
+  transition: .3s;
+  
+}
+.chart:hover{
+  
+  
+  transform: translateY(3px);
+  background-color: hsl(10, 59%, 35%) ;
+}
+.price{
+  /* opacity: 0; */
+  display: flex;
+  align-self: center;
+  background-color: hsl(25, 47%, 15%) ;
+  max-width: 60px;
+  max-height: 40px;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  
+}
 
-.chart-1 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.mon {
   height: 40px;
-  border-radius: 3px;
 }
-.chart-2 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.tue {
   height: 60px;
-  border-radius: 3px;
 }
-.chart-3 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.wed {
   height: 150px;
-  border-radius: 3px;
 }
-.chart-4 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.thu {
   height: 40px;
-  border-radius: 3px;
 }
-.chart-5 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.fri {
   height: 80px;
-  border-radius: 3px;
 }
-.chart-6 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.sat {
   height: 120px;
-  border-radius: 3px;
 }
-.chart-7 {
-  background-color: hsl(10, 79%, 65%);
-  width: 40px;
+.sun {
   height: 70px;
-  border-radius: 3px;
 }
+
 
 .total-container {
   display: flex;
