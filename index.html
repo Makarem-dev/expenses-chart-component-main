@@ -1,22 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+
   <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body>
 
-  My balance
+<body>
+  <div class="container">
+    <div class="balance">
+      
+      <div>
+        <div>My balance</div>
+        <div>$921.48</div>
+      </div>
+      <div>logo</div>
+
+    </div>
+    <div class="chart-container">
+      <div class="chart-title">Spending - Last 7 days</div>
+      <div class="days-column">
+        <div class="column 1">
+          <div class="chart"></div>mon
+        </div>
+        <div class="column">
+          <div class="chart 2"></div>tue
+        </div>
+        <div class="column">
+          <div class="chart 3"></div>wed
+        </div>
+        <div class="column">
+          <div class="chart 4"></div>thu
+        </div>
+        <div class="column">
+          <div class="chart 5"></div>fri
+        </div>
+        <div class="column">
+          <div class="chart 6"></div>sat
+        </div>
+        <div class="column">
+          <div class="chart 7"></div>sun
+        </div>
+      </div>
+      
+      <div class="total-container">
+        <div class="total-month">
+          <div>Total this month</div>
+          <div>$478.33</div>
+        </div>
+        <div class="total-lastmonth">
+          <div>+2.4%</div>
+          <div>from last month</div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- My balance
   $921.48
 
   Spending - Last 7 days
@@ -33,11 +96,12 @@
   $478.33
 
   +2.4%
-  from last month
-  
+  from last month -->
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
