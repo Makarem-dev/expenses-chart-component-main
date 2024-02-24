@@ -68,15 +68,16 @@ html {
   transition: .3s;
   
 }
-.chart:hover{
-  
+.chart:hover {
   
   transform: translateY(3px);
   background-color: hsl(10, 59%, 35%) ;
 }
-.price{
-  /* opacity: 0; */
-  display: flex;
+
+.price {
+  
+  display: none;
+  
   align-self: center;
   background-color: hsl(25, 47%, 15%) ;
   max-width: 60px;
@@ -86,6 +87,7 @@ html {
   border-radius: 7px;
   
 }
+
 
 .mon {
   height: 40px;
