@@ -1,11 +1,19 @@
 [
   {
+    "day": "kirday",
+    "amount": 90
+  },
+  {
+    "day": "kirday",
+    "amount": 90
+  },
+  {
     "day": "mon",
-    "amount": 17.45
+    "amount": 5.45
   },
   {
     "day": "tue",
-    "amount": 34.91
+    "amount": 120
   },
   {
     "day": "wed",

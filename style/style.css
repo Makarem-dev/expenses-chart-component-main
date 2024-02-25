@@ -40,7 +40,7 @@ html {
   flex-direction: column;
   padding: 30px 50px;
   max-width: 500px;
-  max-height: 500px;
+  /* max-height: 500px; */
   margin-top: 15px;
   background-color: white;
   border-radius: 10px;
@@ -87,30 +87,6 @@ html {
   border-radius: 7px;
   
 }
-
-
-.mon {
-  height: 40px;
-}
-.tue {
-  height: 60px;
-}
-.wed {
-  height: 150px;
-}
-.thu {
-  height: 40px;
-}
-.fri {
-  height: 80px;
-}
-.sat {
-  height: 120px;
-}
-.sun {
-  height: 70px;
-}
-
 
 .total-container {
   display: flex;
