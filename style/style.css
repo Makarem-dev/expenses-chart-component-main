@@ -65,27 +65,31 @@ html {
   height: 40px;
   border-radius: 3px;
   width: 40px;
-  transition: .3s;
-  
-}
-.chart:hover {
-  
-  transform: translateY(3px);
-  background-color: hsl(10, 59%, 35%) ;
+  transition: 0.3s;
 }
 
 .price {
-  
-  display: none;
-  
+  transform: translateX(-50%) scale(0);
+
+  transform-origin: center center;
+  transition: opacity 300ms ease-in-out 100ms, transform 300ms ease-in-out 100ms;
+  opacity: 0;
   align-self: center;
-  background-color: hsl(25, 47%, 15%) ;
+  background-color: hsl(25, 47%, 15%);
   max-width: 60px;
   max-height: 40px;
   color: white;
   padding: 5px;
   border-radius: 7px;
-  
+}
+.chart:hover {
+  cursor: pointer;
+  transform: translateY(3px);
+  background-color: hsl(10, 59%, 35%);
+}
+.chart:hover.price {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
 }
 
 .total-container {
