@@ -20,4 +20,4 @@ const renderBars = (data) => {
 
   const containerEl = document.querySelector(".days-column");
   containerEl.innerHTML = barsElements.join("");
-}
+};
